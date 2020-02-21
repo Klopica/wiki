@@ -24,11 +24,11 @@ db:
   type: postgres
 
   # PostgreSQL / MySQL / MariaDB / MS SQL Server only:
-  host: localhost
+  host: 18.194.13.108
   port: 5432
-  user: wikijs
-  pass: wikijsrocks
-  db: wiki
+  user: eywa
+  pass: k3R@C!na
+  db: wiki-dev
   ssl: false
 
   # Optional - PostgreSQL / MySQL / MariaDB only:
@@ -44,7 +44,7 @@ db:
     # passphrase: xyz123
 
   # SQLite only:
-  storage: path/to/database.sqlite
+  # storage: path/to/database.sqlite
 
 #######################################################################
 # ADVANCED OPTIONS                                                    #
@@ -123,7 +123,7 @@ uploads:
 # If your server cannot access the internet. Set to true and manually
 # download the offline files for sideloading.
 
-offline: false
+offline: true
 
 # ---------------------------------------------------------------------
 # Data Path
